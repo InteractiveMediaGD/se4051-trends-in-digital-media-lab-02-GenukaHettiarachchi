@@ -1,0 +1,15 @@
+1. What does the Detection Zone simulate in a “smart environment”?
+
+The Detection Zone simulates a sensor system in a smart environment. It represents technologies such as motion sensors, proximity sensors, or security zones that detect when a person enters or leaves an area. In this scene, the trigger collider acts like a virtual sensor that responds to the player’s presence by changing lighting and activating alerts, similar to how real smart systems react to human activity.
+
+2. How does the NPC decide when to move?
+
+The NPC decides when to move by continuously calculating the distance between itself and the player. Each frame, it checks whether the player is within a predefined chase distance. If the player is close enough, the NPC rotates to face the player and moves forward. This behavior is rule-based and deterministic, meaning the NPC reacts based on simple conditions rather than learning or reasoning.
+
+3. What changes made the environment feel more responsive?
+
+The environment felt more responsive due to immediate visual and behavioral feedback. The lighting change provided instant visual confirmation when the player entered a detection zone, while the NPC movement reinforced the sense that the environment was reacting to the player’s actions. Adjusting parameters such as detection distance, movement speed, and alert colors also made the system feel more dynamic and alive.
+
+4. If you had real AI, what would you improve in this scene?
+
+With real AI, the NPC could exhibit more advanced behaviors such as decision-making, memory, and adaptation. For example, the NPC could predict player movement, choose different paths, or change behavior based on past interactions. The detection system could also become more intelligent by analyzing patterns instead of relying on simple trigger zones, allowing the environment to respond in more realistic and context-aware ways.
